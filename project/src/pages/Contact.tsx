@@ -36,13 +36,13 @@ export const Contact = () => {
     {
       icon: Phone,
       title: 'Phone',
-      value: '+1 (234) 567-890',
+      value: '+91 9310470118',
       link: 'tel:+1234567890',
     },
     {
       icon: MapPin,
       title: 'Address',
-      value: '123 Business Ave, Tech City, TC 12345',
+      value: 'Sangam vihar New Delhi 110080',
       link: null,
     },
   ];
