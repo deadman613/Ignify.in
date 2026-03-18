@@ -30,13 +30,10 @@ export const Navigation = ({ currentPage, onNavigate }: NavigationProps) => {
             className="flex items-center gap-2 cursor-pointer group"
             onClick={() => handleNavigate('home')}
           >
-            <div className="bg-gradient-to-br from-blue-600 to-cyan-500 p-2 rounded-lg group-hover:scale-110 transition-transform">
-              <Zap className="w-6 h-6 text-white" />
-            </div>
-            <div className='max-w-30'>
-
-           <img src="/logo final/final logo ifnify.png" alt="" />
-            </div>
+           
+           <div className='max-w-20 ml-2'>
+  <img src="/logo final/final logo ifnify.png" alt="" />
+</div>
           </div>
 
           <div className="hidden md:flex items-center gap-8">
